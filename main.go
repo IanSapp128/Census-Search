@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// Set the console window title based on Windows or Linux
+	// Set the console window title based on Windows or *NIX
 	switch runtime.GOOS {
 	case "windows":
 		cmd := exec.Command("cmd", "/C", "title Census Search")
